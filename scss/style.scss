@@ -1,7 +1,9 @@
 @font-face {
     font-family: 'Myriadpro';
-    src: url(../assets/fonts/Myriadpro-REGULAR.woff)
+    src: url(../assets/fonts/Myriadpro-REGULAR.woff);
   }
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 body{
     font-family: 'Lato', 'Myriadpro', sans-serif;
     header{
