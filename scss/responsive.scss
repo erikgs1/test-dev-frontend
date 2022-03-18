@@ -1,0 +1,16 @@
+@media (max-width: 767px){
+    body{
+        header{
+            min-height: 100px;
+            text-align: center !important;
+            img{
+                margin: 15px auto 0;
+            }
+            .menu{
+                text-align: center;
+                line-height: 20px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
