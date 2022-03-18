@@ -85,5 +85,15 @@ body {
         font-family: 'Myriadpro';
         color: #3a3e54;
         margin-top: 40px; }
+  body footer {
+    background-color: black;
+    text-align: center;
+    height: 60px; }
+    body footer h6 {
+      font-family: 'Myriadpro';
+      font-size: 20px;
+      text-transform: uppercase;
+      color: white;
+      line-height: 50px; }
 
 /*# sourceMappingURL=style.css.map */

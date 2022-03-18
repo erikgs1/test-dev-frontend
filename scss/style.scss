@@ -109,6 +109,17 @@ body{
                 }
             }
         }
-
+    }
+    footer{
+        background-color: black;
+        text-align: center;
+        height: 60px;
+        h6{
+            font-family: 'Myriadpro';
+            font-size: 20px;
+            text-transform: uppercase;
+            color: white;
+            line-height: 50px;
+        }
     }
 }
