@@ -12,5 +12,81 @@
                 margin-top: 10px;
             }
         }
+        main {
+            .main-section{
+                .section-banner{
+                    padding-top: 55px;
+                    background-position: top;
+                    .title-main {
+                        .h2-title{
+                            font-size: 42px;
+                            line-height: 90px;
+                        }
+                    }
+                }
+                .section-about{
+                    left: 0;
+                    padding: 10px 20px;
+                    top: -100px;
+                    .h4-black{
+                        font-size: 20px;
+                    }
+                    p{
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+                }
+                .lorem-section{
+                    padding-top: 150px;
+                    min-height: 560px;
+                    .h2-yellow{
+                        font-size: 22px;
+                    }
+                    p, ul li{
+                        font-size: 14px;
+                    }
+                }
+                
+            }
+            .boxes-section{
+                padding: 15px 0;
+                .cone-box{
+                    min-height: auto;
+                    margin-bottom: 20px;
+                    .box-title{
+                        font-size: 26px;
+                    }
+                    p{
+                        font-size: 16px;
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 992px){
+    body{
+        main{
+            .main-section{
+                .lorem-section{
+                    min-height: 680px;
+                }
+            }
+            .boxes-section{
+                .cone-box{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1200px){
+    body main{
+        .main-section{
+            .section-about{
+                left: 0;
+            }
+        }
     }
 }

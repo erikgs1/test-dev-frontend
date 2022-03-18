@@ -75,7 +75,8 @@ body {
       padding: 10px 40px;
       text-align: center;
       box-shadow: black 0px 0px 10px -2px;
-      background-color: white; }
+      background-color: white;
+      margin: 0 auto; }
       body main .boxes-section .cone-box .box-title {
         font-size: 30px;
         color: #d4a108; }

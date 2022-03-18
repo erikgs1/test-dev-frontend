@@ -7,6 +7,46 @@
     body header .menu {
       text-align: center;
       line-height: 20px;
-      margin-top: 10px; } }
+      margin-top: 10px; }
+  body main .main-section .section-banner {
+    padding-top: 55px;
+    background-position: top; }
+    body main .main-section .section-banner .title-main .h2-title {
+      font-size: 42px;
+      line-height: 90px; }
+  body main .main-section .section-about {
+    left: 0;
+    padding: 10px 20px;
+    top: -100px; }
+    body main .main-section .section-about .h4-black {
+      font-size: 20px; }
+    body main .main-section .section-about p {
+      font-size: 14px;
+      line-height: 20px; }
+  body main .main-section .lorem-section {
+    padding-top: 150px;
+    min-height: 560px; }
+    body main .main-section .lorem-section .h2-yellow {
+      font-size: 22px; }
+    body main .main-section .lorem-section p, body main .main-section .lorem-section ul li {
+      font-size: 14px; }
+  body main .boxes-section {
+    padding: 15px 0; }
+    body main .boxes-section .cone-box {
+      min-height: auto;
+      margin-bottom: 20px; }
+      body main .boxes-section .cone-box .box-title {
+        font-size: 26px; }
+      body main .boxes-section .cone-box p {
+        font-size: 16px;
+        line-height: 25px; } }
+@media (max-width: 992px) {
+  body main .main-section .lorem-section {
+    min-height: 680px; }
+  body main .boxes-section .cone-box {
+    width: 100%; } }
+@media (max-width: 1200px) {
+  body main .main-section .section-about {
+    left: 0; } }
 
 /*# sourceMappingURL=responsive.css.map */
